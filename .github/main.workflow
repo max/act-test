@@ -5,5 +5,5 @@ workflow "workflow" {
 
 action "action" {
   uses = "docker://alpine"
-  runs = "echo $GITHUB_WORKSPACE"
+  runs = "echo $$GITHUB_WORKSPACE"
 }
