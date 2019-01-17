@@ -5,5 +5,5 @@ workflow "workflow" {
 
 action "action" {
   uses = "docker://alpine"
-  runs = ["sh", "-c", "echo", "HELLO WORLD"]
+  runs = ["echo", "hello"]
 }
